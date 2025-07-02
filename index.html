@@ -1,0 +1,222 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>El amor que transmiten los animales</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #8bd3dd;
+        padding: 60px 20px;
+        text-align: center;
+        color: white;
+        background-image: url('https://images.unsplash.com/photo-1598137261744-14f918ce78d6?auto=format&fit=crop&w=1200&q=80');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+      header::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+
+      .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+        margin: auto;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 10px;
+      }
+
+      header p {
+        font-size: 1.2em;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: auto;
+        padding: 40px 20px;
+      }
+
+      h2 {
+        font-size: 2em;
+        margin-top: 40px;
+      }
+
+      h3 {
+        font-size: 1.2em;
+        color: #777;
+      }
+
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+      }
+
+      .gallery a {
+        text-decoration: none;
+        color: inherit;
+        text-align: center;
+      }
+
+      .gallery a img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+
+      .gallery a span {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+      }
+
+      .fake-heading {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin-top: 40px;
+      }
+
+      .low-contrast {
+        background-color: #f2f2f2;
+        color: #cccccc;
+        padding: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+      }
+
+      ul.testimonios {
+        list-style: disc;
+        margin-left: 20px;
+      }
+
+      form input,
+      form textarea {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 1em;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      .small-action {
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        background-color: #007BFF;
+        color: white;
+        border: none;
+        border-radius: 3px;
+      }
+
+      nav a {
+        margin-right: 10px;
+        color: #007BFF;
+        text-decoration: none;
+      }
+
+      footer {
+        background-color: yellow;
+        color: white;
+        text-align: center;
+        padding: 30px 20px;
+        margin-top: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <header role="banner" style="position: relative; background-image: url('https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; color: white; padding: 60px 20px; text-align: center;">
+      <div style="position: absolute; inset: 0; background-color: rgba(0, 0, 0, 0.5); z-index: 0;"></div>
+      <div class="hero-content" style="position: relative; z-index: 1; max-width: 800px; margin: auto;">
+        <h1>Encontrá a tu nuevo mejor amigo</h1>
+        <p>Hay cientos de perros y gatos esperando una segunda oportunidad. En esta web te ayudamos a encontrarte con ese compañero fiel que llenará tu vida de amor y ternura.</p>
+      </div>
+    </header>
+
+    
+
+
+    <main role="main">
+      <h2>¿Quiénes están esperando por vos? <h3>(Y te van a llenar de amor)</h3></h2>
+      
+      <div class="gallery">
+        <a href="https://placedog.net/400/300?id=1">
+          <img src="https://placedog.net/400/300?id=1" alt="Chori mirando la cámara" />
+          <span>Chori</span>
+        </a>
+        <a href="https://placedog.net/400/300?id=2">
+          <img src="https://placedog.net/400/300?id=2" />
+          <span>La Rubia Tóxica</span>
+        </a>
+        <a href="https://placedog.net/400/300?id=3">
+          <img src="https://placedog.net/400/300?id=3" alt="El Kevin en el pasto" />
+          <span>El Kevin</span>
+        </a>
+        <a href="https://placedog.net/400/300?id=4">
+          <img src="https://placedog.net/400/300?id=4" alt="" />
+          <span>Diente Flojo</span>
+        </a>
+        <a href="https://placedog.net/400/300?id=5">
+          <img src="https://placedog.net/400/300?id=5" alt="Pata de Lana en la siesta" />
+          <span>Pata de Lana</span>
+        </a>
+        <a href="https://placedog.net/400/300?id=6">
+          <img src="https://placedog.net/400/300?id=6" />
+          <span>Milanga</span>
+        </a>
+      </div>
+
+
+      <p class="fake-heading">Acerca de nosotros</p>
+      <p>
+        Somos una organización sin fines de lucro que busca encontrar hogar para animales abandonados.
+        Amamos a cada peludo como si fuera nuestro y trabajamos para que tengan una nueva oportunidad.
+      </p>
+
+      <p class="fake-heading">Testimonios</p>
+      <ul class="testimonios">
+        <li>"Desde que adopté a Firulais, mi vida cambió para siempre. ¡Gracias por todo!"</li>
+        <li>"Antonio Ríos es el rey de la casa. Nunca creí amar tanto a un perro."</li>
+        <li>"Adoptar a Doña Marta fue la mejor decisión que tomé."</li>
+      </ul>
+
+      <p class="fake-heading">Contacto</p>
+      <form>
+        <input type="text" name="nombre" placeholder="Tu nombre" />
+        <input type="email" name="correo" placeholder="Tu correo electrónico" />
+        <textarea rows="4" placeholder="Tu mensaje"></textarea>
+        <button class="small-action" type="submit">✓</button>
+      </form>
+
+      <p class="fake-heading">Seguinos en nuestras redes</p>
+      <nav>
+        <a href="#">Instagram</a>
+        <a>Facebook</a>
+        <a href="#">TikTok</a>
+      </nav>
+    </main>
+
+    <footer role="contentinfo">
+      Gracias por ayudarnos a conectar animales con personas llenas de amor.
+    </footer>
+  </body>
+</html>
